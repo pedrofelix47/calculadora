@@ -3,7 +3,7 @@
     padding: 0;
 }
 .fundo{
-    background-image: linear-gradient(to bottom right,black, rgb(29, 216, 85));
+    background-color: rgb(26, 4, 74);
     height: 100vh;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +11,7 @@
 }
 .calculadora{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -24,7 +24,7 @@
     font-size: 25px;
     cursor: pointer;
     margin: 3px;
-    background-color: rgb(31,31,31);
+    background-color: rgb(78, 4, 39);
     border: none;
     color: #fff;
 }
