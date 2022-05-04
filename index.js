@@ -5,8 +5,8 @@ function btnpress(num){
     
     
     if(contnum < 14){ //LIMITA A QUANTIDADE DE CARACTERES USADOS
-    var numero = document.getElementById('resultado').innerHTML  //irá subistituir o espaço em branco do campo do resultado pelo numero.
-    document.getElementById('resultado').innerHTML = numero + num //fará com que o proximo núnmero digitado se adicione ao invés de substituir.
+    var numero = document.getElementById('resultado').innerHTML  //GUARDA O NUMERO DIGITADO NA VARIAVEL "NUMERO".
+    document.getElementById('resultado').innerHTML = numero + num //ADICIONA O NUMERO DIGITADO NO CAMPO RESULTADO.
     contnum++
     }    
 
